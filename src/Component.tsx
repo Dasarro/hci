@@ -61,52 +61,52 @@ export const Component: React.FC = () => {
         <Flex flexDirection='column' alignItems='center'>
             { showStart ? <Button onClick={startOnClick} width={'100px'} bgColor='lightcoral' mt={4}>Start</Button> : null }
             { showFirst ? <Flex flexDirection='column' alignItems='center'>
-                <Heading mb={8}>Find word "Milk"</Heading>
-                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Apple</Button>
-                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Bread</Button>
-                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Grape</Button>
-                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Milk</Button>
-                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Pine</Button>
+                <Heading mb={8}>Find number "1531"</Heading>
+                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>582</Button>
+                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>952</Button>
+                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1402</Button>
+                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1531</Button>
+                <Button onClick={firstOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1929</Button>
             </Flex> : null }
 
             { showSecond ? <Flex flexDirection='column' alignItems='center'>
-                <Heading mb={8}>Find word "Hungary"</Heading>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Brasil</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>France</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Germany</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Hungary</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Italy</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Norway</Button>
-                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Spain</Button>
+                <Heading mb={8}>Find number "5621"</Heading>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1683</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1696</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>2563</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>4215</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5621</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5812</Button>
+                <Button onClick={secondOnClick} width={'100px'} bgColor='lightcoral' mb={3}>6485</Button>
             </Flex> : null }
 
             { showThird ? <Flex flexDirection='column' alignItems='center'>
-                <Heading mb={8}>Find word "Spaghetti"</Heading>
-                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Pancakes</Button>
-                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Spaghetti</Button>
-                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Sushi</Button>
+                <Heading mb={8}>Find number "8421"</Heading>
+                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>4832</Button>
+                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5416</Button>
+                <Button onClick={thirdOnClick} width={'100px'} bgColor='lightcoral' mb={3}>8421</Button>
             </Flex> : null }
 
             { showForth ? <Flex flexDirection='column' alignItems='center'>
-                <Heading mb={8}>Find word "Pink"</Heading>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Blue</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Brown</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Gray</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Green</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Orange</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Pink</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Purple</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Red</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>White</Button>
-                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Yellow</Button>
+                <Heading mb={8}>Find word "6421"</Heading>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>2631</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>2853</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>3742</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5842</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5974</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>6269</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>6421</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>7532</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>8421</Button>
+                <Button onClick={forthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>9785</Button>
             </Flex> : null }
 
             { showFifth ? <Flex flexDirection='column' alignItems='center'>
-                <Heading mb={8}>Find word "Towel"</Heading>
-                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Ball</Button>
-                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Suncream</Button>
-                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Towel</Button>
-                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>Water</Button>
+                <Heading mb={8}>Find word "2328"</Heading>
+                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>1743</Button>
+                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>2328</Button>
+                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>5732</Button>
+                <Button onClick={fifthOnClick} width={'100px'} bgColor='lightcoral' mb={3}>6236</Button>
             </Flex> : null }
         </Flex>
 
